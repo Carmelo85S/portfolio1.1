@@ -7,7 +7,7 @@ import SkillsColumn from "./SkillColumn";
 const About = () => {
   const skills = [
     { category: "Frontend Excellence", items: ["React", "TypeScript", "Tailwind CSS"], icon: Code2, color: "from-cyan-500 to-blue-600", level: 95 },
-    { category: "Backend Mastery", items: ["Node.js", "Express", "MongoDB", "PostgreSQL"], icon: Database, color: "from-emerald-500 to-green-600", level: 88 },
+    { category: "Backend Mastery", items: ["Node.js", "Express", "MongoDB", "PostgreSQL"], icon: Database, color: "from-emerald-500 to-green-600", level: 8 },
     { category: "DevOps & Tools", items: ["Docker", "Git"], icon: Zap, color: "from-purple-500 to-indigo-600", level: 85 },
   ];
 
@@ -18,7 +18,7 @@ const About = () => {
   ];
 
   return (
-    <section className="min-h-screen flex flex-col items-center bg-gradient-to-br from-slate-950 via-indigo-950 to-purple-950 p-6 sm:p-10 overflow-hidden">
+    <section className="min-h-screen flex flex-col items-center bg-gradient-to-br from-gray-950 via-indigo-950 to-slate-950 p-6 sm:p-10 overflow-hidden">
       <div className="p-6 bg-gradient-to-r from-cyan-500/20 to-blue-600/20 backdrop-blur-xl rounded-3xl border border-cyan-400/30 shadow-2xl shadow-cyan-500/20 mb-8">
         <Users className="w-12 h-12 text-cyan-300" />
       </div>

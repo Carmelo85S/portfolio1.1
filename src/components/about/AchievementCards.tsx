@@ -15,7 +15,7 @@ const AchievementCards = ({
     <section className="w-full max-w-md flex flex-col justify-between p-5 rounded-2xl border border-gray-700 bg-gradient-to-br from-gray-800 to-indigo-400 shadow-md hover:shadow-cyan-500/30 transition-all duration-300 group hover:scale-[1.02] min-h-[180px]">
       <div className="flex flex-col sm:flex-row gap-4">
         {/* Icon */}
-        <div className="flex-shrink-0 p-4 rounded-xl bg-emerald-600/20 backdrop-blur-md group-hover:scale-105 transform transition-transform duration-300 self-start sm:self-center rounded-xl bg-cyan-600/20 backdrop-blur-md group-hover:scale-105 transform transition-transform duration-300 self-start sm:self-center">
+        <div className="flex-shrink-0 p-4 rounded-xl bg-emerald-600/20 backdrop-blur-md group-hover:scale-105 transform transition-transform duration-300 self-start sm:self-center">
           {icon}
         </div>
 
