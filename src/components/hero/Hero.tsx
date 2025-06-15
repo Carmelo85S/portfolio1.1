@@ -6,7 +6,8 @@ import Name from "./Name";
 import Title from "./Title";
 import Description from "./Description";
 import Cards from "./Cards";
-import Contact from "../button/Contact";
+import Contact from "../ui/button/Contact";
+import Underline from "../ui/Underline";
 
 const Hero = () => {
   return (
@@ -29,6 +30,7 @@ const Hero = () => {
 
         {/* Enhanced title section with smaller font */}
         <Title />
+        <Underline />
 
         {/* Enhanced description with smaller font */}
         <Description />
