@@ -1,6 +1,5 @@
 import Heading from "../ui/Heading";
 import SkillCard from "./SkillCards";
-
 import type { LucideIcon } from "lucide-react";
 
 type SkillGroup = {

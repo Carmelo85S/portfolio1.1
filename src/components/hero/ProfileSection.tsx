@@ -1,4 +1,4 @@
-import { Award } from "lucide-react"
+import FloatingBadges from "./FloatingBadges"
 
 const ProfileSection = () => {
   return (
@@ -16,10 +16,7 @@ const ProfileSection = () => {
           </div>
           
           {/* Floating badges */}
-          <div className="absolute top-4 -right-10 bg-gradient-to-r from-yellow-400 to-orange-500 text-black px-3 py-1 rounded-full text-xs font-bold animate-bounce shadow-lg shadow-yellow-500/30 flex items-center gap-1">
-            <Award className="w-3 h-3 inline mr-1" />
-            HIRING
-          </div>
+          <FloatingBadges award="Hiring" />
         </div>
     </div>
   )
