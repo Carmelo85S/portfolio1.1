@@ -1,5 +1,5 @@
 import AnimateBg from "./AnimateBg";
-import FloatingParticles from "./FloatingParticles";
+import FloatingParticles from "../FloatingParticles.tsx/FloatingParticles";
 import ProfileSection from "./ProfileSection";
 import Status from "./Status";
 import Name from "./Name";

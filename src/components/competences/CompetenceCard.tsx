@@ -1,5 +1,5 @@
 import type { LucideIcon } from "lucide-react"
-import FloatingBadges from "../hero/FloatingBadges"
+import FloatingBadges from "../FloatingBadge/FloatingBadges"
 
 export type CompetenceCardProps = {
     icon: LucideIcon,

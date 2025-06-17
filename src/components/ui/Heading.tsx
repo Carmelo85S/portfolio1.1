@@ -9,6 +9,7 @@ type HeadingProps = {
 
 const Heading = ({ title, subtitle, color = "white", size = "lg" }: HeadingProps) => {
   const titleSizes = {
+    xs: "text-lg",
     sm: "text-2xl",
     md: "text-3xl",
     lg: "text-5xl",
@@ -32,7 +33,7 @@ const Heading = ({ title, subtitle, color = "white", size = "lg" }: HeadingProps
       >
         {title}
       </h2>
-      {subtitle && <p className="text-sm text-gray-400">{subtitle}</p>}
+      {subtitle && <p className="text-lg text-gray-400">{subtitle}</p>}
     </div>
   );
 };

@@ -1,4 +1,4 @@
-import FloatingBadges from "./FloatingBadges"
+import FloatingBadges from "../FloatingBadge/FloatingBadges"
 
 const ProfileSection = () => {
   return (
@@ -16,7 +16,7 @@ const ProfileSection = () => {
           </div>
           
           {/* Floating badges */}
-          <FloatingBadges award="Hiring" />
+          <FloatingBadges award="Ready" />
         </div>
     </div>
   )

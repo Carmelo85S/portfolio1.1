@@ -7,6 +7,7 @@ export type ContactCardsProps = {
   extra?: string
 };
 
+
 const ConnectCard = ({
   icon: Icon,
   title,
@@ -14,10 +15,10 @@ const ConnectCard = ({
   extra
 }: ContactCardsProps) => {
   return (
-    <section className="w-full flex flex-col justify-between p-5 rounded-2xl border border-gray-700 bg-gradient-to-br from-gray-800 to-indigo-500 shadow-lg hover:shadow-emerald-500/40 transition-all duration-300 group hover:scale-[1.02]">
+    <section className="w-full flex flex-col justify-between p-5 rounded-2xl border border-gray-700 bg-gradient-to-br from-gray-400 shadow-lg hover:shadow-emerald-500/40 transition-all duration-300 group hover:scale-[1.02]">
       <div className="flex flex-col sm:flex-row gap-4">
         <div className="flex-shrink-0 p-4 rounded-xl backdrop-blur-md group-hover:scale-110 transform transition-transform duration-300">
-          <Icon className="w-12 h-12 text-white" />
+          <Icon className="w-6 h-6 text-white" />
         </div>
 
         <div className="flex flex-col justify-between flex-1">

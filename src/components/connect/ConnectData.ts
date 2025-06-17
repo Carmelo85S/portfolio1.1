@@ -5,7 +5,7 @@ export const contact = [
     icon: Mail,
     title: "Primary Contact Method",
     description: "carmelo.salis85@gmail.com",
-    extra: "Response time: Within 24 hours",
+    extra: "Response time: Within 24 hours"
   },
   {
     icon: LinkedinIcon,
