@@ -4,7 +4,7 @@ type HeadingProps = {
   title: string;
   subtitle?: string;
   color?: "white" | "cyan" | "blue" | "gray"; // limitato a valori Tailwind-validi
-  size?: "sm" | "md" | "lg";
+  size?: "xs" | "sm" | "md" | "lg";
 };
 
 const Heading = ({ title, subtitle, color = "white", size = "lg" }: HeadingProps) => {
