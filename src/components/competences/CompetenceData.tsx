@@ -1,5 +1,5 @@
 import { Code2, DatabaseBackup, Server } from "lucide-react";
-import type { CompetenceCardProps } from "./CompetenceCard";
+import type { CompetenceCardProps } from "../../type/type";
 
 const competenceData: CompetenceCardProps[] = [
   {

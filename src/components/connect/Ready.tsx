@@ -1,8 +1,7 @@
 import { MessageSquare } from "lucide-react";
 import Heading from "../ui/Heading";
 import Underline from "../ui/Underline";
-import Contact from "../ui/button/Contact";
-import Linkedin from "../ui/button/Linkedin";
+import { ContactForm } from "./ContactForm";
 
 const Ready = () => {
   return (
@@ -13,21 +12,20 @@ const Ready = () => {
       </div>
 
       {/* Heading and underline */}
-      <Heading
-        title="Ready to start a conversation?"
-        subtitle="I'm excited to discuss how my skills, passion, and unique perspective can contribute to your team's success and drive innovation forward."
-      />
-      <Underline />
-
-      {/* Button row */}
-      <div className="flex flex-col sm:flex-row justify-center sm:justify-between items-center gap-6 mt-10">
-        <Contact />
-        <Linkedin />
+      <div className="w-full text-center max-w-3xl mx-auto">
+        <Heading
+          title="Ready to talk ?"
+          subtitle="I'm excited to discuss how my skills, passion, and unique perspective can contribute to your team's success and drive innovation forward."
+        />
       </div>
+
+      <Underline />
       <Heading
         title="Available for immediate start • Open to remote and on-site opportunities"
         size="xs"
-        />
+      />
+      <ContactForm />
+      
     </section>
   );
 };

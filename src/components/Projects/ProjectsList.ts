@@ -1,5 +1,5 @@
 import { Calendar, Code2, Goal, Star, User } from "lucide-react"
-import type { ProjectCardProps } from "./ProjectCard"
+import type { ProjectCardProps } from "../../type/type"
 
 const projectsList: ProjectCardProps[] = [
     {

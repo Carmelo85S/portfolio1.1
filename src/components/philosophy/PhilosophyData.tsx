@@ -1,5 +1,5 @@
 import { ChevronsLeftRight, Server, UserLock, Gauge, Component, ShieldCheck } from "lucide-react";
-import type { PhilosophyCardProps } from "./PhilosophyCard";
+import type { PhilosophyCardProps } from "../../type/type";
 
 const philosophyData: PhilosophyCardProps[] = [
   {

@@ -1,13 +1,6 @@
+import type { Achievement } from "../../type/type";
 import Heading from "../ui/Heading";
 import AchievementCards from "./AchievementCards";
-import type { LucideIcon } from "lucide-react";
-
-export type Achievement = {
-  icon: LucideIcon;
-  title: string;
-  description: string;
-  extra?: string;
-};
 
 type AchievementsColumnProps = {
   achievements: Achievement[];

@@ -1,11 +1,4 @@
-import type { LucideIcon } from "lucide-react";
-
-export type AchievementCardsProps = {
-  icon: LucideIcon;
-  title: string;
-  description: string;
-  extra?: string;
-};
+import type { AchievementCardsProps } from "../../type/type";
 
 const AchievementCards = ({
   icon: Icon,

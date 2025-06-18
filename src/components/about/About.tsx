@@ -1,15 +1,10 @@
-import { Award, Code2, Database, Lightbulb, Target, Users, Zap } from "lucide-react";
+import { Award, Lightbulb, Target, Users } from "lucide-react";
 import Heading from "../ui/Heading";
 import Underline from "../ui/Underline";
 import AchievementsColumn from "./AchivementsColumn";
-import SkillsColumn from "./SkillColumn";
+import InfoColumn from "./InfoColumn";
 
 const About = () => {
-  const skills = [
-    { category: "Frontend Excellence", items: ["React", "TypeScript", "Tailwind CSS"], icon: Code2, color: "from-cyan-500 to-blue-600", level: 95 },
-    { category: "Backend Mastery", items: ["Node.js", "Express", "MongoDB", "PostgreSQL"], icon: Database, color: "from-emerald-500 to-green-600", level: 65 },
-    { category: "DevOps & Tools", items: ["Docker", "Git"], icon: Zap, color: "from-purple-500 to-indigo-600", level: 85 },
-  ];
 
   const achievements = [
     { icon: Award, title: "Career Transformation", description: "Transition from a traditional job to a full-stack web developer role.", extra: "Built several projects." },
@@ -28,7 +23,7 @@ const About = () => {
 
       <div className="max-w-7xl grid grid-cols-1 lg:grid-cols-2 gap-10 mt-12 items-stretch">
         <AchievementsColumn achievements={achievements} />
-        <SkillsColumn skills={skills} />
+        <InfoColumn />
       </div>
     </section>
   );

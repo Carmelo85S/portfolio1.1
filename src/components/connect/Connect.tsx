@@ -1,7 +1,6 @@
 import { MousePointerClick } from 'lucide-react'
 import Heading from '../ui/Heading'
 import Underline from '../ui/Underline'
-import ConnectList from './ConnectList'
 import OpportunityList from './OpportunityList'
 import FloatingParticles from '../FloatingParticles.tsx/FloatingParticles'
 import Ready from './Ready'
@@ -19,8 +18,7 @@ const Connect = () => {
       <Heading title={'Let\'s Connect'} subtitle='Ready to contribute to your team.' />
       <Underline />
 
-      <section className="z-10 max-w-7xl grid grid-cols-1 lg:grid-cols-2 gap-10 my-12 items-stretch">
-        <ConnectList />
+      <section className="z-10 w-full my-12">
         <OpportunityList />
       </section>
       <Ready />

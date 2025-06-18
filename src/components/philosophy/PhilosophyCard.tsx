@@ -1,10 +1,5 @@
-import type { LucideIcon } from "lucide-react";
+import type { PhilosophyCardProps } from "../../type/type";
 
-export type PhilosophyCardProps = {
-  icon: LucideIcon;
-  title: string;
-  description: string;
-};
 
 const PhilosophyCard = ({ icon: Icon, title, description }: PhilosophyCardProps) => {
   return (

@@ -1,12 +1,11 @@
-import { Mail, Linkedin, Github } from 'lucide-react'
+import { Linkedin, Github } from 'lucide-react'
 
 const Cards = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
           {[
-            { icon: Mail, label: "Email", value: "Carmelo.salis85@gmail.com", gradient: "from-red-500 to-pink-500" },
             { icon: Linkedin, label: "LinkedIn", value: "/in/carmelo-salis", gradient: "from-blue-500 to-cyan-500" },
-            { icon: Github, label: "Git Hub", value: "View Projects", gradient: "from-purple-500 to-indigo-500" }
+            { icon: Github, label: "Git Hub", value: "@Carmelo85S", gradient: "from-purple-500 to-indigo-500" }
           ].map((contact, index) => (
             <div key={index} className="group relative">
               <div className="absolute inset-0 bg-gradient-to-r from-white/10 to-white/5 rounded-2xl blur-xl group-hover:blur-2xl transition-all duration-500"></div>

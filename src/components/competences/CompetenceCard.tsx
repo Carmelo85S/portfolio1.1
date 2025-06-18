@@ -1,16 +1,5 @@
-import type { LucideIcon } from "lucide-react"
+import type { CompetenceCardProps } from "../../type/type"
 import FloatingBadges from "../FloatingBadge/FloatingBadges"
-
-export type CompetenceCardProps = {
-    icon: LucideIcon,
-    badgeText: string,
-    title: string,
-    description: string,
-    info: string,
-    stack: string[],
-    color: string,
-    level: number,
-}
 
 const CompetenceCard = ({
   icon: Icon,

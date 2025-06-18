@@ -1,11 +1,5 @@
 import clsx from "clsx";
-
-type HeadingProps = {
-  title: string;
-  subtitle?: string;
-  color?: "white" | "cyan" | "blue" | "gray"; // limitato a valori Tailwind-validi
-  size?: "xs" | "sm" | "md" | "lg";
-};
+import type { HeadingProps } from "../../type/type";
 
 const Heading = ({ title, subtitle, color = "white", size = "lg" }: HeadingProps) => {
   const titleSizes = {
