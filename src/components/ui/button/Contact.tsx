@@ -4,7 +4,12 @@ const Contact = () => {
   const handleScroll = () => {
     const contactSection = document.getElementById("contact");
     if (contactSection) {
-      contactSection.scrollIntoView({ behavior: "smooth" });
+      const top = contactSection.getBoundingClientRect().top + window.pageYOffset;
+      if ('scrollBehavior' in document.documentElement.style) {
+        window.scrollTo({ top, behavior: 'smooth' });
+      } else {
+        window.scrollTo(0, top);
+      }
     }
   };
 
