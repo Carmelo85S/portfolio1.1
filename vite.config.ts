@@ -3,5 +3,7 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/portfolio1.1/'
+  // gh pages -> base: '/portfolio1.1/'/
+  base: './' //vercel
+  
 })
