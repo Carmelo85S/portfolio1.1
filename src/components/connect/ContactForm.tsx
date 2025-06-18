@@ -7,9 +7,6 @@ const ContactForm = () => {
   const [errors, setErrors] = useState<{ [key: string]: string }>({});
   const [submitted, setSubmitted] = useState(false);
 
-  const FORMSPREE_ENDPOINT = import.meta.env.VITE_FORMSPREE_ENDPOINT;
-
-
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     setForm({ ...form, [e.target.name]: e.target.value });
     setErrors({ ...errors, [e.target.name]: '' });
@@ -33,7 +30,7 @@ const ContactForm = () => {
   }
 
   try {
-    const response = await fetch(FORMSPREE_ENDPOINT, {
+    const response = await fetch("https://formspree.io/f/mvgrqqbv", {
       method: "POST",
       headers: {
         Accept: "application/json",
