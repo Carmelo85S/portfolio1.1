@@ -10,7 +10,7 @@ const Title = () => {
 
       {/* Tech stack with enhanced styling */}
       <div className="flex flex-wrap justify-center gap-4 mb-6">
-        {['React', 'Node.js', 'Express.Js', 'MongoDB', 'TypeScript'].map((tech) => (
+        {['React','TypeScript','Node.js','Express.Js','MongoDB','Docker'].map((tech) => (
           <div key={tech} className="px-4 py-2 bg-white/10 backdrop-blur-sm text-white rounded-xl border border-white/20 hover:bg-white/20 transition-all duration-300 cursor-default group">
             <span className="group-hover:text-cyan-300 transition-colors">{tech}</span>
           </div>
