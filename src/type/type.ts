@@ -63,7 +63,7 @@ export type ProjectCardProps = {
   year: string;
   typeOfProject: Array<"Production Ready" | "Creative" | "Team Project">;
   linkGit: string;
-  linkLive: string;
+  linkLive?: string;
   description: string;
   completion: string;
   performance: string;
