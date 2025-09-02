@@ -66,7 +66,6 @@ export type ProjectCardProps = {
   linkLive?: string;
   description: string;
   completion: string;
-  performance: string;
   type: string;
   ratingIcon: LucideIcon;
   ratingCount: number;

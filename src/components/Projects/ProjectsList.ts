@@ -14,7 +14,6 @@ const projectsList: ProjectCardProps[] = [
     description:
       "My virtual pet is a game inspired by the most famous tamagotchi. The idea behind the game was to create something that can be helpull in the development for a child. In the game the user needs to take care of a pet, feed him and clean. In teh game there are 3 ways to gain points: mini games, take care of the animal, for example cleaning. With the points gained the user can buy food and drinks for the Pet.",
     completion: "100%",
-    performance: "Interactive",
     type: "Team project",
     ratingIcon: Star,
     ratingCount: 5,
@@ -42,7 +41,6 @@ const projectsList: ProjectCardProps[] = [
     description:
       "A modern, responsive restaurant website built with React and Tailwind CSS. It features dynamic menu tabs, animated sections, a contact form, and smooth scroll-based interactions. Perfect for burger joints or any restaurant wanting a clean digital presence.",
     completion: "100%",
-    performance: "Optimized",
     type: "Personal project",
     ratingIcon: Star,
     ratingCount: 4,
@@ -70,7 +68,6 @@ const projectsList: ProjectCardProps[] = [
     description:
       "Seedly is a modern web application designed for gardeners, plant enthusiasts, and eco-conscious consumers. It allows users to explore, purchase, and learn about plant seeds in a user-friendly and inspiring environment.",
     completion: "90%",
-    performance: "Very good",
     type: "Team project",
     ratingIcon: Star,
     ratingCount: 4,
@@ -100,7 +97,6 @@ const projectsList: ProjectCardProps[] = [
     description:
       "A full-stack web application for Hotel and Bars, booking form and reservation management, with business insights.",
     completion: "100%",
-    performance: "Very good",
     type: "Personal project",
     ratingIcon: Star,
     ratingCount: 5,
@@ -129,7 +125,6 @@ const projectsList: ProjectCardProps[] = [
     linkLive: "https://github.com/Carmelo85S/shiftmate",
     description: "A full-stack web application for managing job listings, applications. Still working on it.",
     completion: "80%",
-    performance: "Work in progress",
     type: "Personal project",
     ratingIcon: Star,
     ratingCount: 5,

@@ -11,7 +11,6 @@ const ProjectCard = ({
   linkLive,
   description,
   completion,
-  performance,
   type,
   ratingIcon: RatingIcon,
   ratingCount,
@@ -79,10 +78,9 @@ const ProjectCard = ({
       <p className="text-sm sm:text-base text-gray-300 leading-relaxed">{description}</p>
 
       {/* Metrics */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
         {[
           { label: "Completion", value: completion },
-          { label: "Performance", value: performance },
           { label: "Type", value: type },
           {
             label: "Rating",
